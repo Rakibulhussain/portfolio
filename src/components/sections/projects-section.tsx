@@ -40,6 +40,25 @@ export const ProjectsSection = () => {
       highlights: ["Real-time messaging", "Modern UI", "Scalable architecture"],
       category: "Web Application"
     },
+      {
+  title: "Campus Bazaar",
+  description: "A student-centric marketplace enabling campus communities to buy, sell, and exchange items with ease and trust.",
+  technologies: ["React", "Node.js", "Express", "MongoDB"],
+  icon: ShoppingCart,
+  color: "text-emerald-green",
+  highlights: ["User-to-user trading", "Secure authentication", "Product listing and search", "Chat and notifications"],
+  category: "working,Web Application"
+},{
+  title: "FoodReels",
+  description: "A social food discovery platform where users can explore, share, and review short food videos from around the world.",
+  technologies: ["React", "Firebase", "Node.js", "Express", "MongoDB"],
+  icon: Utensils,
+  color: "text-orange-500",
+  highlights: ["Short food videos", "User-generated content", "Real-time likes and comments", "Recipe sharing"],
+  category: "Web Application"
+},
+
+
     {
       title: "News Web App",
       description: "Dynamic news aggregation platform that fetches and displays real-time articles through API integration with clean, responsive design.",
